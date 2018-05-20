@@ -110,10 +110,11 @@ p {
 h1,h2,h3,h4,h5,h6 { color: #767676;}
 
 h1 {
-	font-size: 48px;
+	font-size: 85px;
 	line-height: 50px;
 	font-weight: 600;
 	font-family: 'Merriweather', serif;
+	line-height: 1;
 	text-transform: uppercase;
 }
 
@@ -144,7 +145,7 @@ h4 {
 	}
 
 h5 {
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 22px;
 	font-weight: 600;
 	font-family: "Myriad Pro" , sans-serif;
@@ -282,7 +283,7 @@ a:hover{
 	transition: all 500ms ease-in-out 0s;
 	width: 40px;
 	position:absolute;
-	left:50%;
+	left:48%;
 	bottom:0;
 }
 
@@ -361,22 +362,24 @@ a:hover{
 /* Banner section */
 
 .banner{
-	background:url(../images/bannerbg.jpg) no-repeat;
+	background:url(../images/back.png) no-repeat;
 	position:relative;
 	background-size:cover;
 }
 
 .main_banner_area{
-	padding:250px 0px;
+	padding:300px 0px;
 	overflow:hidden;
+
 }
 
-.single_banner_text h2{
-	color:#333b46;
+.single_banner_text h1{
+	color:#e56357;
 	font-weight:500;
+
 }
 .single_banner_text h5{
-	font-size:16px;
+	font-size:20px;
 	color:#81868e;
 	font-family:'opensans-regular';
 	font-weight:100;
