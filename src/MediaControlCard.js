@@ -17,6 +17,12 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     fontFamily: 'Helvetica Neue',
+    transition: "0.3s",
+    boxShadow: "0 8px 20px -12px rgba(0,0,0,0.3)",
+    "&:hover": {
+      boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+    },
+    borderRadius: 10,
   },
   details: {
     display: 'flex',
@@ -50,10 +56,10 @@ export default function MediaControlCard(props) {
       <div className={classes.details}>
         {/* <CardActionArea> */}
           <CardContent className={classes.content}>
-            <Typography component="h5" variant="h5">
+            <Typography style={{fontSize: 18, fontFamily: 'Lato'}} component="h5" variant="h5">
               {props.data.title}
             </Typography>
-            <Typography variant="subtitle1" color="textSecondary">
+            <Typography style={{fontSize: 18, fontFamily: 'Lato'}} variant="subtitle1" color="textSecondary">
               {props.data.position}
             </Typography>
           </CardContent>

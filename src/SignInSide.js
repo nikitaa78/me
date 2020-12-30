@@ -17,6 +17,10 @@ import freevimg from './img/logo-circle.png';
 import sepimg from './img/SEP_logo.png';
 import slackimg from './img/slack_logo.png';
 import amazonimg from './img/amazon_logo.png';
+import fungudesignimg from './img/udesign_logo.png';
+import pursuimg from './img/pursu_logo.png';
+import me from './img/me.JPG';
+import PrimarySearchAppBar from './Navbar';
 
 
 
@@ -61,13 +65,25 @@ const data = {
         bigLink: "http://www.ucberkeleysep.com/",
         learnLink: "http://www.ucberkeleysep.com/",
         img: sepimg,
+    },
+    fungudesign: {
+      title: "Fung Fellowship - UDesign",
+      position: "Design Challenge/Product Manager",
+      img: fungudesignimg,
+    },
+    pursu: {
+      title: "Pursu",
+      position: "Frontend Engineer",
+      bigLink: "https://pursu.dev/",
+      learnLink: "https://pursu.dev/",
+      img: pursuimg,
     }
 };
 
 const useStyles = makeStyles((theme) => ({
   root: {
     height: '100vh',
-    fontFamily: 'Helvetica Neue',
+    // fontFamily: 'Helvetica Neue',
   },
   image: {
     //backgroundImage: 'url(https://source.unsplash.com/random)',
@@ -86,7 +102,7 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(2),
       marginBottom: theme.spacing(3),
       marginRight: 'auto',
-      fontFamily: 'Helvetica Neue',
+      fontSize: 12,
   },
   avatar: {
     margin: theme.spacing(1),
@@ -119,23 +135,26 @@ export default function SignInSide() {
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
-      <Grid item xs={6} sm={6} md={5} className={classes.image}>
+      <Grid item xs={6} sm={6} md={4} className={classes.image}>
+        <PrimarySearchAppBar/>
         <div className={classes.paper}>
-            <Avatar className={classes.avatarImg} alt="Nikita Ashok" src="/static/images/avatar/1.jpg" />
-            <Typography component="h1" variant="h5">
+            <Avatar className={classes.avatarImg} alt="Nikita Ashok" src={me} />
+            <Typography style={{fontFamily: 'Lato'}} component="h1" variant="h5">
                 Hi, I'm
             </Typography>
-            <Typography component="h1" variant="h3">
+            <Typography style={{fontFamily: 'Lato'}} component="h1" variant="h3">
                 Nikita
             </Typography>
+            <p>...a soon to be graduate of UC Berkeley</p>
+            <p>here's some of the cool opportunities I was apart of in college</p>
         </div>
       
       </Grid>
-      <Grid item xs={6} sm={6} md={7} component={Paper} elevation={6} square>
+      <Grid item xs={6} sm={6} md={8} component={Paper} elevation={6} square>
 
         <div className={classes.paper}>
-            <div className={classes.typography}>            
-                <Typography component="body1" variant="h5" align="left">
+            <div style={{scrollBehavior: 'smooth'}} id="work" className={classes.typography}>            
+                <Typography style={{fontFamily: 'Lato'}} component="body1" variant="h5" align="left">
                     Work Experience
                 </Typography>
             </div>
@@ -148,8 +167,8 @@ export default function SignInSide() {
                 </Grid>
             </Grid>
 
-            <div id="projects" className={classes.typography}>            
-                <Typography component="body1" variant="h5" align="left">
+            <div style={{scrollBehavior: 'smooth'}} id="projects" className={classes.typography}>            
+                <Typography style={{fontFamily: 'Lato'}} style={{fontSize: 25}} component="body1" variant="h5" align="left">
                     Projects
                 </Typography>
             </div>
@@ -158,13 +177,13 @@ export default function SignInSide() {
                     <MediaControlCard data={data.freev}/> 
                 </Grid>
                 <Grid item xs={6}>
-                    <MediaControlCard data={data.sep}/>
+                    <MediaControlCard data={data.pursu}/>
                 </Grid>
                 <Grid item xs={6}> 
-                    <MediaControlCard data={data.slack}/> 
+                    <MediaControlCard data={data.sep}/> 
                 </Grid>
                 <Grid item xs={6}>
-                    <MediaControlCard data={data.amazon}/>
+                    <MediaControlCard data={data.fungudesign}/>
                 </Grid>
             </Grid>
         </div>

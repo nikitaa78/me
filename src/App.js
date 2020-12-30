@@ -21,7 +21,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <SignInSide />
+    <SignInSide/>
   );
 }
 
