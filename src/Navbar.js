@@ -186,6 +186,7 @@ export default function PrimarySearchAppBar() {
             </IconButton>
           </div>
         {/* </Toolbar> */}
+
       </AppBar>
       {renderMobileMenu}
       {renderMenu}

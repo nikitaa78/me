@@ -1,15 +1,9 @@
 import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
-import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
-import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import MediaControlCard from './MediaControlCard.js';
@@ -21,6 +15,9 @@ import fungudesignimg from './img/udesign_logo.png';
 import pursuimg from './img/pursu_logo.png';
 import me from './img/me.JPG';
 import PrimarySearchAppBar from './Navbar';
+import IconButton from '@material-ui/core/IconButton';
+import { GitHub, MenuBook } from '@material-ui/icons';
+import resume from './assets/Nikita_Ashok_Resume_2020.pdf';
 
 
 
@@ -109,7 +106,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.secondary.main,
   },
   avatarImg: {
-      margin: theme.spacing(5),
+      margin: theme.spacing(3),
+      marginBottom: theme.spacing(1),
       height: theme.spacing(20),
       width: theme.spacing(20),
   },
@@ -127,6 +125,9 @@ const useStyles = makeStyles((theme) => ({
       paddingLeft: theme.spacing(5),
       marginBottom: theme.spacing(3),
   },
+  icons: {
+    paddingBottom: theme.spacing(3),
+  }
 }));
 
 export default function SignInSide() {
@@ -139,6 +140,14 @@ export default function SignInSide() {
         <PrimarySearchAppBar/>
         <div className={classes.paper}>
             <Avatar className={classes.avatarImg} alt="Nikita Ashok" src={me} />
+            <div className={classes.icons}>
+              <IconButton href={resume} target="_blank" aria-label="Resume">
+                <MenuBook></MenuBook>
+              </IconButton>
+              <IconButton href="https://github.com/nikitaa78" target="_blank" aria-label="Github">
+                <GitHub></GitHub>
+              </IconButton>
+            </div>
             <Typography style={{fontFamily: 'Lato'}} component="h1" variant="h5">
                 Hi, I'm
             </Typography>
