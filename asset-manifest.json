@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.12f68b58.chunk.css",
-    "main.js": "/static/js/main.b46dd9a9.chunk.js",
-    "main.js.map": "/static/js/main.b46dd9a9.chunk.js.map",
+    "main.js": "/static/js/main.6dc6f53f.chunk.js",
+    "main.js.map": "/static/js/main.6dc6f53f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2b9e1b03.js",
     "runtime-main.js.map": "/static/js/runtime-main.2b9e1b03.js.map",
     "static/js/2.d4a6b0ac.chunk.js": "/static/js/2.d4a6b0ac.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.12f68b58.chunk.css.map": "/static/css/main.12f68b58.chunk.css.map",
     "static/js/2.d4a6b0ac.chunk.js.LICENSE.txt": "/static/js/2.d4a6b0ac.chunk.js.LICENSE.txt",
-    "static/media/Nikita_Ashok_Resume_2020.2f9a2cb3.pdf": "/static/media/Nikita_Ashok_Resume_2020.2f9a2cb3.pdf",
+    "static/media/Nikita_Ashok_Resume_2021.d77cfbe6.pdf": "/static/media/Nikita_Ashok_Resume_2021.d77cfbe6.pdf",
     "static/media/SEP_logo.f6e1a216.png": "/static/media/SEP_logo.f6e1a216.png",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
     "static/media/me.7b46a12b.JPG": "/static/media/me.7b46a12b.JPG",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.2b9e1b03.js",
     "static/js/2.d4a6b0ac.chunk.js",
     "static/css/main.12f68b58.chunk.css",
-    "static/js/main.b46dd9a9.chunk.js"
+    "static/js/main.6dc6f53f.chunk.js"
   ]
 }
