@@ -17,7 +17,7 @@ import me from './img/me.JPG';
 import PrimarySearchAppBar from './Navbar';
 import IconButton from '@material-ui/core/IconButton';
 import { GitHub, MenuBook } from '@material-ui/icons';
-import resume from './assets/Nikita_Ashok_Resume_2020.pdf';
+import resume from './assets/Nikita_Ashok_Resume_2021.pdf';
 
 
 
