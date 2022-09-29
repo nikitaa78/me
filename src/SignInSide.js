@@ -17,7 +17,7 @@ import me from './img/me.JPG';
 import PrimarySearchAppBar from './Navbar';
 import IconButton from '@material-ui/core/IconButton';
 import { GitHub, MenuBook } from '@material-ui/icons';
-import resume from './assets/Nikita_Ashok_Resume_2021.pdf';
+import resume from './assets/Nikita_Ashok_Resume.pdf';
 
 
 
@@ -154,8 +154,8 @@ export default function SignInSide() {
             <Typography style={{fontFamily: 'Lato'}} component="h1" variant="h3">
                 Nikita
             </Typography>
-            <p>...a soon to be graduate of UC Berkeley</p>
-            <p>here's some of the cool opportunities I was apart of in college</p>
+            <p>a software engineer at Slack</p>
+            <p>here's some of the cool opportunities I've been a part of</p>
         </div>
       
       </Grid>
@@ -177,7 +177,7 @@ export default function SignInSide() {
             </Grid>
 
             <div style={{scrollBehavior: 'smooth'}} id="projects" className={classes.typography}>            
-                <Typography style={{fontFamily: 'Lato'}} style={{fontSize: 25}} component="body1" variant="h5" align="left">
+                <Typography style={{fontFamily: 'Lato', fontSize: 25}} component="body1" variant="h5" align="left">
                     Projects
                 </Typography>
             </div>
