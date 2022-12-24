@@ -21,7 +21,10 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <SignInSide/>
+    <div>
+      <div style={{textAlign: 'center', margin: '30vh', alignContent: 'center'}}> Hello! Welcome to my website. Currently WIP :) </div> 
+    </div>
+    // <SignInSide/>
   );
 }
 
