@@ -6,6 +6,19 @@ html {
   text-align: center;
 }
 
+.center-box {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  background-color: white; 
+  min-height: 80vh; 
+  margin-top: 10vh; 
+  margin-left: 15vw; 
+  margin-right: 15vw;
+  box-shadow: 10px 14px 5px 3px rgba(0, 0, 0, 0.15);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

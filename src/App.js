@@ -22,7 +22,7 @@ function App() {
     //   </header>
     // </div>
     <div>
-      <div style={{textAlign: 'center', marginTop: '30vh', alignContent: 'center'}}> Hello!!! Welcome to my website. Currently WIP :) </div> 
+      <div className='center-box'> Hello!!! Welcome to my website. Currently WIP :) </div> 
     </div>
     // <SignInSide/>
   );
