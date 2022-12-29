@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d5eee30.chunk.css",
-    "main.js": "/static/js/main.e8a349a5.chunk.js",
-    "main.js.map": "/static/js/main.e8a349a5.chunk.js.map",
+    "main.css": "/static/css/main.bd00625a.chunk.css",
+    "main.js": "/static/js/main.24d173db.chunk.js",
+    "main.js.map": "/static/js/main.24d173db.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2b9e1b03.js",
     "runtime-main.js.map": "/static/js/runtime-main.2b9e1b03.js.map",
     "static/js/2.a79d3f5d.chunk.js": "/static/js/2.a79d3f5d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0b2af039.chunk.js": "/static/js/3.0b2af039.chunk.js",
     "static/js/3.0b2af039.chunk.js.map": "/static/js/3.0b2af039.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4d5eee30.chunk.css.map": "/static/css/main.4d5eee30.chunk.css.map",
+    "static/css/main.bd00625a.chunk.css.map": "/static/css/main.bd00625a.chunk.css.map",
     "static/js/2.a79d3f5d.chunk.js.LICENSE.txt": "/static/js/2.a79d3f5d.chunk.js.LICENSE.txt",
     "static/media/Nikita_Ashok_Resume.af426520.pdf": "/static/media/Nikita_Ashok_Resume.af426520.pdf",
     "static/media/SEP_logo.f6e1a216.png": "/static/media/SEP_logo.f6e1a216.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.2b9e1b03.js",
     "static/js/2.a79d3f5d.chunk.js",
-    "static/css/main.4d5eee30.chunk.css",
-    "static/js/main.e8a349a5.chunk.js"
+    "static/css/main.bd00625a.chunk.css",
+    "static/js/main.24d173db.chunk.js"
   ]
 }
