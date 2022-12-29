@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.12f68b58.chunk.css",
-    "main.js": "/me/static/js/main.facb7a2e.chunk.js",
-    "main.js.map": "/me/static/js/main.facb7a2e.chunk.js.map",
-    "runtime-main.js": "/me/static/js/runtime-main.7dd1bcf4.js",
-    "runtime-main.js.map": "/me/static/js/runtime-main.7dd1bcf4.js.map",
-    "static/js/2.6c64e634.chunk.js": "/me/static/js/2.6c64e634.chunk.js",
-    "static/js/2.6c64e634.chunk.js.map": "/me/static/js/2.6c64e634.chunk.js.map",
-    "static/js/3.a07ea3ce.chunk.js": "/me/static/js/3.a07ea3ce.chunk.js",
-    "static/js/3.a07ea3ce.chunk.js.map": "/me/static/js/3.a07ea3ce.chunk.js.map",
-    "index.html": "/me/index.html",
-    "static/css/main.12f68b58.chunk.css.map": "/me/static/css/main.12f68b58.chunk.css.map",
-    "static/js/2.6c64e634.chunk.js.LICENSE.txt": "/me/static/js/2.6c64e634.chunk.js.LICENSE.txt",
-    "static/media/SEP_logo.f6e1a216.png": "/me/static/media/SEP_logo.f6e1a216.png",
-    "static/media/logo.6ce24c58.svg": "/me/static/media/logo.6ce24c58.svg",
-    "static/media/me.7b46a12b.JPG": "/me/static/media/me.7b46a12b.JPG",
-    "static/media/pursu_logo.2a8ba276.png": "/me/static/media/pursu_logo.2a8ba276.png",
-    "static/media/udesign_logo.9dcbb699.png": "/me/static/media/udesign_logo.9dcbb699.png"
+    "main.css": "/static/css/main.4d5eee30.chunk.css",
+    "main.js": "/static/js/main.b5faeaa2.chunk.js",
+    "main.js.map": "/static/js/main.b5faeaa2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2b9e1b03.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2b9e1b03.js.map",
+    "static/js/2.a79d3f5d.chunk.js": "/static/js/2.a79d3f5d.chunk.js",
+    "static/js/2.a79d3f5d.chunk.js.map": "/static/js/2.a79d3f5d.chunk.js.map",
+    "static/js/3.0b2af039.chunk.js": "/static/js/3.0b2af039.chunk.js",
+    "static/js/3.0b2af039.chunk.js.map": "/static/js/3.0b2af039.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4d5eee30.chunk.css.map": "/static/css/main.4d5eee30.chunk.css.map",
+    "static/js/2.a79d3f5d.chunk.js.LICENSE.txt": "/static/js/2.a79d3f5d.chunk.js.LICENSE.txt",
+    "static/media/Nikita_Ashok_Resume.af426520.pdf": "/static/media/Nikita_Ashok_Resume.af426520.pdf",
+    "static/media/SEP_logo.f6e1a216.png": "/static/media/SEP_logo.f6e1a216.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/me.7b46a12b.JPG": "/static/media/me.7b46a12b.JPG",
+    "static/media/pursu_logo.2a8ba276.png": "/static/media/pursu_logo.2a8ba276.png",
+    "static/media/udesign_logo.9dcbb699.png": "/static/media/udesign_logo.9dcbb699.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7dd1bcf4.js",
-    "static/js/2.6c64e634.chunk.js",
-    "static/css/main.12f68b58.chunk.css",
-    "static/js/main.facb7a2e.chunk.js"
+    "static/js/runtime-main.2b9e1b03.js",
+    "static/js/2.a79d3f5d.chunk.js",
+    "static/css/main.4d5eee30.chunk.css",
+    "static/js/main.b5faeaa2.chunk.js"
   ]
 }
